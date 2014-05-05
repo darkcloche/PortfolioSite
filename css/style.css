@@ -1,0 +1,315 @@
+@charset "UTF-8";
+
+
+
+/* ----------------- Reset all styles ----------------- */
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+
+/* ----------------- Website background and general text colour ----------------- */
+body{
+	background-image:url(http://i.imgur.com/3w0oBYM.png);
+	background-color:#f9f9f9;
+	color:#2d2d2d;
+}
+
+
+/* ----------------- Wrapper - keeps all content in the center of page -----------------  */
+.wrapper{
+	margin:auto;
+	width:825px;
+	height:auto;
+}
+
+
+/* The rest is pretty self explanatory - it appears in the order that it occurs on the HTML document */
+#top{
+	height:40px;
+	margin-top:5%;
+	margin-bottom:40px;
+}
+
+#logo{
+	text-decoration:none;
+}
+
+#logotitle{
+	float:left;
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:175%;
+	margin-top:10px;
+}
+
+#logotitle a{
+	color:#2d2d2d;
+	text-decoration:none;
+}
+
+#navright{
+	width:50%;
+	float:right;
+	display:block;
+	height:40px;
+}
+
+#navcenter{
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	display:none;
+	height:40px;
+}
+
+#navimage{
+	width:56px;
+	height:56px;
+	margin-left:10px;
+	float:right;
+	opacity:0.7;
+}
+
+#navimage:hover{
+	opacity:1;
+}
+
+hr{
+	height:1px;
+	width:100%;
+	background-color:#2d2d2d;
+	margin:2% 0;
+}
+
+hrblank{
+	margin:20px;
+}
+
+header{
+	width:100%;
+	margin:0% 0 5% 0;
+}
+
+header h1{
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:140%;
+	font-weight:normal;
+	letter-spacing:1px;
+	margin-bottom:1%;
+}
+
+header h1 span{
+	color:#F78520;
+	text-shadow: 0 1px 1px #dadada;
+}
+
+header h2{
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:100%;
+	font-weight:normal;
+}
+
+
+/* ----------------------- WORK LINKS START ------------------------- */
+#work{
+	width:700px;
+	height:100%;
+	margin:3% auto 3% auto;
+}
+
+.item{
+	border-color:#000000;
+	border-radius:15px;
+	border-style:solid;
+	border-width:1px;
+	width:700px;
+	height:230px;
+	background-color:#FFF;
+	margin-bottom:15px;
+	float:left;
+	-webkit-box-shadow: 0 1px 3px #c3c3c3;
+    -moz-box-shadow: 0 1px 3px #c3c3c3;
+    box-shadow: 0 1px 3px #c3c3c3;  
+	overflow:hidden;
+	-webkit-transition: box-shadow 0.05s ease-in-out;
+	-moz-transition: box-shadow 0.05s ease-in-out;
+	-o-transition: box-shadow 0.05s ease-in-out;
+	-ms-transition: box-shadow 0.05s ease-in-out;
+	transition: box-shadow 0.05s ease-in-out;
+}
+	
+.item img{
+	border:0;
+	display:block;
+	width:700px;
+	height:180px;
+	-webkit-box-shadow: 0 2px 1px #c3c3c3;
+    -moz-box-shadow: 0 2px 1px #c3c3c3;
+    box-shadow: 0 2px 1px #c3c3c3;
+	border-radius:13px 13px 0 0;
+	opacity:0.9;
+	-webkit-transition: opacity 0.05s ease-in-out;
+	-moz-transition: opacity 0.05s ease-in-out;
+	-o-transition: opacity 0.05s ease-in-out;
+	-ms-transition: opacity 0.05s ease-in-out;
+	transition: opacity 0.05s ease-in-out;
+	
+}
+
+.item img:hover{
+	opacity:1;
+}
+
+
+.item h3{
+	font-family:Lato, Arial, Helvetica, sans-serif;
+	font-size:105%;
+	font-weight:bold;
+	padding:5px 0 0 8px;
+	color:#2d2d2d;
+	margin-right:10px;
+}
+
+.item h3 a{
+	color:#2d2d2d;
+}
+
+.item p{
+	font-family:Lato, Arial, Helvetica, sans-serif;
+	font-size:100%;
+	font-weight:normal;
+	padding:0px 0 0 8px;
+	color:#5C5C5C;
+	text-decoration:none;
+	margin-right:10px;
+}
+/* ----------------------- WORK LINKS END ------------------------- */
+
+#bottom{
+	width:70%;
+	margin:100px auto 20px auto;
+}
+
+#bottom h3{
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:80%;
+	font-weight:normal;
+}
+
+#bottom a{
+	color:#212121;
+}
+
+
+/* -- Make the highlight colours pretty -- 
+::selection      { background:#F78520; color:#FFF;}
+::-moz-selection  { background:#F78520; color:#FFF;}
+*/
+
+	
+@media only screen and (max-width: 1000px) {
+	
+	.wrapper{
+	width:550px;
+	}
+	
+	#top{
+	margin-bottom:70px;
+	}
+
+	#logotitle{
+	float:none;
+	text-shadow: 0 1px 1px #FFF;
+	margin:auto;
+	text-align:center;
+	}
+
+	#navright{
+	display:none;
+	}
+
+	#navcenter{
+	display:block;
+	text-align:center;
+	}
+	
+	#navimage{
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+	}
+
+	#work{
+	width:500px;
+	}
+
+	.item{
+	width:500px;
+	height:185px;
+	border-radius:10px;
+	}
+	
+	.item img{
+	width:500px;
+	height:130px;
+	border-radius:6px 6px 0 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	
+	.wrapper{
+	width:310px;
+	}
+	
+	#top{
+	height:40px;
+	margin-top:5%;
+	margin-bottom:40px;
+	}
+	
+	#logotitle{
+	font-size:140%;
+	}
+	
+	#navimage{
+	width:35px;
+	height:35px;
+	}
+	
+	#work{
+	width:300px;
+	}
+
+	.item{
+	width:300px;
+	height:110px;
+	}
+	
+	.item img{
+	width:300px;
+	height:75px;
+	}
+	
+	.item h3{
+	font-size:75%;
+	}
+	
+	.item p{
+	font-size:50%;
+	}
+	
+	#bottom h3{
+	font-size:50%;
+	}
+
+}
