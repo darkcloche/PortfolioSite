@@ -190,6 +190,12 @@ header p{
 	margin-bottom:10px;
 }
 
+#video{
+	width:95%;
+	text-align:center;
+	margin:30px auto 0px auto;
+}
+
 /* ----------------------- WORK LINKS START ------------------------- */
 
 /* ----------------------- WORK LINKS END ------------------------- */
