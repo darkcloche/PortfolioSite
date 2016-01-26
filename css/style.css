@@ -115,6 +115,14 @@ header h2{
 }
 
 
+#personaltop{
+	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-size:150%;
+	font-weight:normal;
+	letter-spacing:1px;
+}
+
+
 /* ----------------------- WORK LINKS START ------------------------- */
 #work{
 	width:700px;

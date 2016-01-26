@@ -201,6 +201,23 @@ li {
 	margin-bottom:10px;
 }
 
+#mainimage{
+	width:95%;
+	text-align:center;
+	margin:30px auto 0px auto;
+}
+	
+#mainimage img{
+	border-radius:10px;
+	width:640px;
+	height:360px;
+	background-color:#FFF;
+	margin-left:5px;
+	margin-right:5px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+
 #video{
 	width:95%;
 	text-align:center;
