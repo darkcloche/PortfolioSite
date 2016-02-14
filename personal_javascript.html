@@ -85,31 +85,38 @@
 		
     <section id="workbody">
 		<h3>
-			After spending some time learning the basics of Javascript, I wanted to put my programming optimism to the test and use my new knowledge on a tangible project.
-			Around the same time there was a lot of discussion in the office on how input, interaction and movement are an important (and sometimes overlooked) part of differentiating a game 
-			and giving it its own feel. I decided to put both of these interests together and create a small top down prototype in Javascript (built on the <a href="http://phaser.io/" target="_blank"> Phaser</a> 
-			HTML5 framework) - the playable result of this can be found by clicking the image below. I had a few areas of focus for the core interaction:
+			After spending some time learning the basics of Javascript, I wanted to put my programming optimism to the test and use my newfound knowledge on a tangible project.
+			Around this time there was a lot of discussion in the office on how input, interaction and core movement mechanics on a base level are a very important (and sometimes overlooked) part of differentiating a game 
+			and giving it its own "feel". It can often be easy for developers to implement the "default" genre implementation of movement and interaction mechanics, which are then functional but are a missed opportunity for 
+			the game's concept to potentially manifest itself in original and interesting ways within the core gameplay.
+			<br/>
+			<br/>
 			
-			
-			
+			I decided to put both of these interests together and create a small top down prototype in Javascript (built on the <a href="http://phaser.io/" target="_blank"> Phaser</a> 
+			HTML5 framework). Not only did this give me a sensibly sized project to start applying object oriented programming concepts, but it also meant I could build core movement and interaction systems
+			from the ground up and experiment with how to make these feel satisfying at a very base 2D level. I had a few areas of focus for the core interaction:
+					
+				
 			<br/>
 			<br/>
 			
 			<ul>
 				<li>
-					Making the character movement feel like it has some weight whilst still retaining the responsiveness to feel satisfying to control.
+					I wanted to make the movement feel non-binary and "weighty" to add some life to the player character, whilst retaining enough input responsiveness that the play experience isn't frustrating.
 				</li>
 				<li>
-					Presenting button prompts in a discreet yet functional way. I wanted to clearly demonstrate the effect of a button press 
-					while having the prompts themselves feel like an extension of the game objects themselves as opposed to feeling presented by the game interface.
+					I wanted to present input prompts in a discrete yet functional way. My aim was to clearly demonstrate the effect of a button press when interacted with, 
+					while having the prompts themselves appear to be somewhat of an extension of the game objects themselves as opposed to feeling like game hints that are abstracted from the game world.
 				</li>
 				<li>
-					Experimenting with communicating interactive elements within the game in simple yet readable ways. I settled on a use-radius system that doubled as the language for interaction,
-					with a fading system that indicates usability but requires the player to explore the environment in order to locate them.
+					I wanted to communicate interactive objects in a simple yet readable fashion. I settled on a use-radius system that doubled as the language for interaction, as the radius fades in based on proximity.
+					This provides clear feedback to players of whether an object can be interacted with, but as its not instantly visible it requires players to explore the environment to locate them.	
 				</li>
 			</ul>
 					
 			<br/>
+			
+			The playable result of this can be found by clicking the image below. 
 	</h3>
 	
 	<div id="mainimage">
